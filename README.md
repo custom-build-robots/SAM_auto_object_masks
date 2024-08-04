@@ -1,4 +1,4 @@
-# SAM_auto_object_masks
+# Segment Anything Model (SAM) auto object masks
 ## Description:
 This program utilizes the Segment Anything Model (SAM) to automatically generate and visualize object masks in images. It processes images within a specified folder, applies the SAM model to generate segmentation masks, filters out small objects based on a configurable minimum contour area, and saves visualizations of the masks with contour boundaries drawn. The visualizations are saved with a timestamp and area parameters in the filename for easy reference.
 
