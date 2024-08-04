@@ -13,9 +13,9 @@ Model and Paths Configuration: Specify the model type and checkpoint path, and c
 Parameters Adjustment: Set min_mask_region_area and min_contour_area to desired values to control the filtering of small objects.
 Run the Script: The script will process each image in the input folder, generate masks, filter based on the set parameters, and save the visualizations in the output folder.
 
-## boxes
+## Picture with boxes
 ![Picture with boxes - not masked](https://github.com/custom-build-robots/SAM_auto_object_masks/blob/main/background_mix_644.jpg)
 
-## Masked boxes
+## Picture with mask's
 
 ![Picture with boxes - masked](https://github.com/custom-build-robots/SAM_auto_object_masks/blob/main/background_mix_644_area_50000_contour_2000_20240804_205848_visualization.png)
