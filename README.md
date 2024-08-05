@@ -26,4 +26,4 @@ After processing the mask's are drawn around the boxes.
 ![Picture with boxes - masked](https://github.com/custom-build-robots/SAM_auto_object_masks/blob/main/background_mix_644_area_50000_contour_2000_20240804_205848_visualization.png)
 
 ## Blog
-Fore more projects around AI topics just visit my blog: ![www.ai-box.eu]([https://github.com/facebookresearch/segment-anything/tree/main](https://ai-box.eu/)
+Fore more projects around AI topics just visit my blog: ![www.ai-box.eu](https://ai-box.eu/)
