@@ -1,6 +1,6 @@
 # Segment Anything Model (SAM) auto object masks
 ## Description:
-This program utilizes the Segment Anything Model (SAM) to automatically generate and visualize object masks in images. It processes images within a specified folder, applies the SAM model to generate segmentation masks, filters out small objects based on a configurable minimum contour area, and saves visualizations of the masks with contour boundaries drawn. The visualizations are saved with a timestamp and area parameters in the filename for easy reference.
+This program utilizes the Segment Anything Model (![SAM](https://github.com/facebookresearch/segment-anything/tree/main)) to automatically generate and visualize object masks in images. It processes images within a specified folder, applies the SAM model to generate segmentation masks, filters out small objects based on a configurable minimum contour area, and saves visualizations of the masks with contour boundaries drawn. The visualizations are saved with a timestamp and area parameters in the filename for easy reference.
 
 ## Features:
 Automatic Mask Generation: Uses a pre-trained SAM model to generate segmentation masks.
@@ -18,8 +18,9 @@ Parameters Adjustment: Set min_mask_region_area and min_contour_area to desired 
 Run the Script: The script will process each image in the input folder, generate masks, filter based on the set parameters, and save the visualizations in the output folder.
 
 ## Picture with boxes
+The picture shows a set of boxes.
 ![Picture with boxes - not masked](https://github.com/custom-build-robots/SAM_auto_object_masks/blob/main/background_mix_644.jpg)
 
 ## Picture with mask's
-
+After processing the mask's are drawn around the boxes.
 ![Picture with boxes - masked](https://github.com/custom-build-robots/SAM_auto_object_masks/blob/main/background_mix_644_area_50000_contour_2000_20240804_205848_visualization.png)
