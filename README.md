@@ -8,6 +8,10 @@ Configurable Filtering: Filters out small objects based on a user-defined minimu
 Visualization: Draws contours around detected objects and saves the visualization with relevant metadata in the filename.
 Batch Processing: Processes all images in a given input folder and saves the output to a specified output folder.
 
+## Why the development?
+I developed this program to find the appropriate values for the typical SAM parameters of my image selection. The aim is to break down the images into their objects. 
+By choosing the right parameters, it is possible to extract or isolate only the objects that are of interest for my application.
+
 ## How to Use:
 Model and Paths Configuration: Specify the model type and checkpoint path, and configure the input and output folder paths.
 Parameters Adjustment: Set min_mask_region_area and min_contour_area to desired values to control the filtering of small objects.
